@@ -1,11 +1,5 @@
 @import './variables';
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: $font-family;
 }
@@ -25,10 +19,6 @@ body {
     width: 160px;
     height: 134px;
     margin: 0 auto;
-    background-image: url('../images/imac.jpeg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 
     .product-card__image {
       width: 100%;

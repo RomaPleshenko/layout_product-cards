@@ -1,0 +1,19 @@
+.stars {
+  display: flex;
+  gap: 4px;
+
+  &__star {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/star.svg');
+    background-size: 12.5px 12.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  // активні зірки
+  &--4 .stars__star:nth-child(-n + 4) {
+    background-image: url('../images/star-active.svg');
+  }
+}
